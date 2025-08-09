@@ -35,6 +35,9 @@
             label2 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
             label3 = new Label();
+            label4 = new Label();
+            textBox2 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -86,17 +89,46 @@
             label3.TabIndex = 4;
             label3.Text = "label3";
             // 
-            // Form1
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(396, 105);
+            label4.Name = "label4";
+            label4.Size = new Size(35, 15);
+            label4.TabIndex = 5;
+            label4.Text = "Code";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(452, 102);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 6;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(452, 131);
+            button2.Name = "button2";
+            button2.Size = new Size(97, 23);
+            button2.TabIndex = 7;
+            button2.Text = "Kontrol";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // SayiTahmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(561, 128);
+            ClientSize = new Size(561, 183);
+            Controls.Add(button2);
+            Controls.Add(textBox2);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "SayiTahmin";
             Text = "Sayı Tahmin Oyunu";
             Load += Form1_Load;
             ResumeLayout(false);
@@ -111,5 +143,8 @@
         private Label label2;
         private System.Windows.Forms.Timer timer1;
         private Label label3;
+        private Label label4;
+        private TextBox textBox2;
+        private Button button2;
     }
 }
