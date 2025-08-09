@@ -19,8 +19,14 @@ namespace Games
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SayiTahmin sayiTahmin=new SayiTahmin();
+            SayiTahmin sayiTahmin = new SayiTahmin();
             sayiTahmin.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            HafizaOyunu hafizaOyunu=new HafizaOyunu();
+            hafizaOyunu.ShowDialog();
         }
     }
 }

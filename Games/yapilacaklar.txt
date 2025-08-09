@@ -1,0 +1,13 @@
+﻿
+buttonların ilk açılış görselleri tasarlanacak.++
+
+buttonların backgroundda bu fotografı gösterme.++
+
+oyun içindeki kullanılacak fotograflar seçilecek.
+3 çift fotograf belirleyip proje içerisine images kısmına eklenecek.++
+
+bu fotograflar random buttonlara dagıtılacak.(karışık sırada olmalı)+
+
+kullanıcı ilk açılışta firma logomuzu görecek.+(hepsini aynı görmeli)
+buttona tıklayınca arkadaki atanmış random 3 çift fotograflar gösterilecek. eğer seçilen 2 button aynı görsele sahipse bu durumda o buttonlar gizlenecek.
+
