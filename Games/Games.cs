@@ -25,8 +25,11 @@ namespace Games
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HafizaOyunu hafizaOyunu=new HafizaOyunu();
-            hafizaOyunu.ShowDialog();
+            //HafizaOyunu hafizaOyunu=new HafizaOyunu();
+            //hafizaOyunu.ShowDialog();
+
+            SureSec sureSec=new SureSec();
+            sureSec.ShowDialog();
         }
     }
 }

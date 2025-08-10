@@ -1,4 +1,9 @@
-﻿
+﻿1.Projenin güncel linki github üzerinden alınır. (https://github.com/yazilimcacsharp/Games.git)
+2.vs açılır ve clone repo diyip en sağda en üstteki link yapıştırılı
+3.clone buttonuna basılır ve gelen projede solution içerisinde .cs olan ara yüz dosyalarına çift tıklayıp bir süre bekleyince ya da .resx uzantılı dosyaya sag tıklayıp view designer diyince arayüz tasarımı geliyor.
+
+
+
 buttonların ilk açılış görselleri tasarlanacak.++
 
 buttonların backgroundda bu fotografı gösterme.++
@@ -10,4 +15,14 @@ bu fotograflar random buttonlara dagıtılacak.(karışık sırada olmalı)+
 
 kullanıcı ilk açılışta firma logomuzu görecek.+(hepsini aynı görmeli)
 buttona tıklayınca arkadaki atanmış random 3 çift fotograflar gösterilecek. eğer seçilen 2 button aynı görsele sahipse bu durumda o buttonlar gizlenecek.
+
+
+//oyunun ilk açılışına süre ve zaman belirlenecek bir form ekleyelim.
+//Zaman bilgisini girsin.
+//timer geriye o zmndan başlayıp geriye dogru sayacak sekilde ayarlansın.
+
+
+
+bug
+random atanan fotograf sırası ile buttondaki yazanlar aynı sırada değil
 
