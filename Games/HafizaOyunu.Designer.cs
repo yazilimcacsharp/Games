@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             tableLayoutPanel1 = new TableLayoutPanel();
             button6 = new Button();
             button5 = new Button();
@@ -36,6 +37,11 @@
             button2 = new Button();
             button1 = new Button();
             button7 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            label1 = new Label();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -123,11 +129,58 @@
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(469, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 2;
+            label1.Text = "label1";
+            // 
+            // button8
+            // 
+            button8.Location = new Point(117, 238);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 45);
+            button8.TabIndex = 3;
+            button8.Text = "Zamanı Durdurma";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(198, 238);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 45);
+            button9.TabIndex = 3;
+            button9.Text = "Zamanı DevamEttir";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(279, 238);
+            button10.Name = "button10";
+            button10.Size = new Size(75, 45);
+            button10.TabIndex = 4;
+            button10.Text = "Zamanı Resetleme";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
             // HafizaOyunu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(519, 315);
+            Controls.Add(button10);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(label1);
             Controls.Add(button7);
             Controls.Add(tableLayoutPanel1);
             Name = "HafizaOyunu";
@@ -135,6 +188,7 @@
             Load += HafizaOyunu_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -147,5 +201,10 @@
         private Button button2;
         private Button button1;
         private Button button7;
+        private System.Windows.Forms.Timer timer1;
+        private Label label1;
+        private Button button8;
+        private Button button9;
+        private Button button10;
     }
 }
